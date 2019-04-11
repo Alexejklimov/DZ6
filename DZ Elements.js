@@ -79,7 +79,7 @@ function Findticket() {
 
 
 window.onload = function () {
-    document.getElementById("btn").onclick = getAge
+    document.getElementById("btn").onclick = getAge   Простіше було використати select
     document.getElementById("conv").onclick = moneyConv
     document.getElementById("num2").onchange = calc
     document.getElementById("num1").onchange = calc
